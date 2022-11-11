@@ -57,7 +57,7 @@
             </div>
         </div>
         <div v-else class="mt-5 flex ">
-            <div class="w-1/6 px-1 pl-2 mt-2">
+            <div class="w-1/6 px-1 pl-4 mt-2">
                 <b class="underline">All Users</b>
                 <ul v-if="users.length" class="pl-1 mt-2">
                     <li v-for="(user, index) in users" :key="user.id"
